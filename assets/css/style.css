@@ -1,0 +1,209 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* HEADER */
+body {
+  background-image: url("/assets/img/sfondo.png");
+}
+header {
+  background-color: #32a8ec;
+  padding: 20px 0;
+  text-align: center;
+  width: 27%;
+  margin: 2em auto;
+  border: solid 1px black;
+}
+header img {
+  width: 70%;
+  height: 30%;
+  padding-top: 20px;
+}
+nav {
+  margin: 3em auto;
+}
+nav p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  color: white;
+  padding: 0 0.5em 1.2em 0.5em;
+}
+nav li {
+  margin: 0.3em;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* MAIN */
+main {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 2em 1em;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #e65ae6;
+}
+main h1:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 2em;
+}
+main div:nth-of-type(1) {
+  margin: 1.5em 0;
+  color: rgb(218, 189, 189);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main p {
+  font-size: 1.2em;
+  margin: 1.8em 0;
+}
+main ul {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+main li {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+button {
+  font-size: 0.8em;
+  background-color: rgb(245, 209, 214);
+  border: 1px solid rgb(165, 110, 119);
+  border-radius: 4px;
+}
+.formatazione {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+}
+#testo {
+  font-size: 1.2em;
+  margin-top: 0.8em
+}
+.CSS {
+  color: rgb(208, 77, 241);
+  font-weight: 600;
+}
+
+main ol {
+  list-style-type: decimal;
+  margin-left: 2em;
+}
+/* TABELLE */
+caption {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 1em 0;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: solid 2px blue;
+  
+}
+table th {
+  background-color: #32a8ec;
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: 1px solid white;
+  align-content: end;
+}
+table td {
+  font-size: 1.2em;
+  padding: 0.5em;
+  text-align: center;
+}
+.background-rosa {
+  background-color: rgb(230, 191, 196);
+  align-content: center;
+  border-bottom: 2px solid rgb(161, 81, 92);
+  border-top: 2px solid rgb(161, 81, 92);
+}
+iframe {
+  width: 100%;
+  height: 300px;
+  margin: 1em 0;
+  border-radius: 1em;
+}
+p a {
+  color: rgb(77, 80, 241);
+  font-weight: 600;
+}
+/* FORM */
+form h1 {
+    text-align: center;
+
+}
+form {
+    background-color: rgb(230, 191, 196) ;
+    padding: 1em;
+}
+.form-button {
+    background-color: blue;
+    border: 1px solid rgb(165, 110, 119);
+    margin: 0.8em 0;
+    color: white;
+}
+input {
+    color:rgb(230, 191, 196) ;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+aside h1 {
+    text-align: center;
+    margin: 2em 0;
+}
+/* ELEMENTI NELL' ASIDE */
+div > p {
+    font-size: 1.2em;
+    margin: 0.3em 0;
+    color: black;
+}
+
+
+aside div {
+    background-color: rgb(247, 216, 220);
+    padding: 1em;
+    margin: 1em 0;
+}
+div a {
+    color: rgb(77, 80, 241);
+    font-weight: 600;
+    font-size: 1.2em;
+
+}
+.data {
+    padding-left: 50%;
+    padding-top: 10%;
+}
+/* FOOTER */
+.categoria {
+    padding-top: 10px;
+}
+footer {
+  background-color: #05466b;
+  padding: 20px 0;
+  text-align: center;
+  width: 27%;
+  margin: 2em auto;
+  border: solid 1px black;
+  color: white;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color: white;
+  padding: 0 0.5em 1.2em 0.5em;
+}
+footer a {
+  color: rgb(235, 16, 205);
+  text-decoration:underline;
+  font-family: "Poppins", sans-serif;;
+  font-weight: 600;
+}
